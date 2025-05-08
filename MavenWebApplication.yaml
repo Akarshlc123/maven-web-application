@@ -34,7 +34,7 @@ metadata:
   name: webpage-service
   namespace: mavenapp
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     application: webpage
   ports:
